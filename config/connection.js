@@ -5,13 +5,13 @@ var mysql = require("mysql");
 	 connection = mysql.createConnection(process.env.JAWSDB_URL);
  } else {
 	 connection = mysql.createConnection({
-		 host: "localhost",
+		 host: "ehc1u4pmphj917qf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
 		 port: 3306,
 
-		 user: "root",
+		 user: "iybdn8v7vivls1fa",
 
-		 password: "08061963nh",
-		 database: "burgers_db"
+		 password: "d705bymnna6wh785",
+		 database: "dakryvd9shbziqpx.burgers"
 	 });
  };
 
