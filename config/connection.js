@@ -11,7 +11,7 @@ var mysql = require("mysql");
 		 user: "iybdn8v7vivls1fa",
 
 		 password: "d705bymnna6wh785",
-		 database: "dakryvd9shbziqpx.burgers"
+		 database: "dakryvd9shbziqpx"
 	 });
  };
 
