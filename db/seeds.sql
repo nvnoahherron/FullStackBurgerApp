@@ -1,6 +1,3 @@
-INSERT INTO burgers (burger_name, devoured, the_date)
-VALUES ("Cheese Burger", false, CURRENT_TIMESTAMP);
-INSERT INTO burgers (burger_name, devoured, the_date)
-VALUES ("Loosa Burger", false, CURRENT_TIMESTAMP);
-INSERT INTO burgers (burger_name, devoured, the_date)
-VALUES ("Winna Burger", false, CURRENT_TIMESTAMP);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Winna Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Eat A Burger', false);
